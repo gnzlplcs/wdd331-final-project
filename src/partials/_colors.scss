@@ -1,0 +1,20 @@
+$color-1: #0D1530; //Oxford Blue
+$color-2: #FFEED9; // Antique White
+$color-3: #FFAB44; // Yellow Orange
+$color-4: #044972; // Indigo Dye
+$color-5: #010F17; // Rich Black
+
+//Additional Colors
+$color-6: #B36300; // Liver Dogs
+$color-7: #C9DEEA; // Columbia Blue
+$color-8: #4BB5F3; // Blue Jeans
+
+body {
+  // this is the page background //
+  background-color: $color-5;
+}
+
+.cd-colors {
+  color: $color-2;
+  // Description around color
+}

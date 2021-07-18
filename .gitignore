@@ -1,0 +1,8 @@
+.cache
+.vscode
+build
+node_modules
+src/.sass-cache
+*.css.map
+*.sass.map
+*.scss.map

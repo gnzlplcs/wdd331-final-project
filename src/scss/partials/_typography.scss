@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;1,400;1,500&family=Montserrat&display=swap');
+@import 'colors';
+
+//Fonts
+$primary-font: "Exo 2",
+Helvetica,
+Arial,
+sans-serif;
+$secondary-font: 'Montserrat',
+sans-serif;
+
+
+h1,
+h2 {
+  font-family: $primary-font;
+  color: $color-2;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0 0 0.4em;
+
+
+}
+
+h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1em 0;
+
+
+}
+
+section>h2::before {
+  /* number before each section title */
+  color: $color-2;
+}
+
+p {
+  font-family: $secondary-font;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: lighten($color-2, 25%);
+
+  // a {
+  //   color: $color-3;
+  //   // text-decoration: underline;
+  // }
+
+
+}
