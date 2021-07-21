@@ -40,3 +40,14 @@
   -o-appearance: $option;
   appearance: $option;
 }
+@mixin size-planets {
+  margin-top: 1.5em;
+  background-size: 100% 100%;
+  content: "";
+  padding: 1em;
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  max-width: 100%;
+  left: -90px;
+}
