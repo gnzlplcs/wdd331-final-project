@@ -741,7 +741,7 @@ body {
   position: absolute;
   top: 0;
   right: -75%;
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   color: #FFAB44;
   font-family: "Exo 2", Helvetica, Arial, sans-serif; }
   .sidebar .wrapper:visited {
@@ -763,27 +763,54 @@ a {
   a:active {
     border: 1px dashed #FFEED9; }
 
+.design-name,
+.designer-name,
+.next a,
+.viewall a,
+.zen-resources ul li a {
+  color: #4BB5F3;
+  font-family: "Exo 2", Helvetica, Arial, sans-serif;
+  font-style: italic; }
+  .design-name:visited,
+  .designer-name:visited,
+  .next a:visited,
+  .viewall a:visited,
+  .zen-resources ul li a:visited {
+    color: #C9DEEA; }
+  .design-name:hover,
+  .designer-name:hover,
+  .next a:hover,
+  .viewall a:hover,
+  .zen-resources ul li a:hover {
+    color: #044972;
+    text-decoration: underline; }
+  .design-name:active,
+  .designer-name:active,
+  .next a:active,
+  .viewall a:active,
+  .zen-resources ul li a:active {
+    border: 1px dashed #4BB5F3; }
+
 header {
   position: relative;
   background: url(header-image.svg) no-repeat center;
   display: flex;
   flex-direction: column;
   margin-top: -7em;
-  max-width: 100%;
+  width: 100%;
   height: 400px;
-  background-color: #0D1530;
   text-align: left;
   justify-content: center;
   transition: 1s ease-in; }
   header h1 {
     width: 100%;
-    margin-left: 2em;
+    margin-left: 4em;
     top: 90px;
     position: absolute;
     transition: 1s ease-in; }
   header h2 {
     width: 100%;
-    margin-left: 2em;
+    margin-left: 5em;
     top: 110px;
     position: absolute;
     transition: 1s ease-in; }
@@ -792,14 +819,14 @@ header {
       background-image: url(header-image.svg) no-repeat;
       transform: scale(1.58);
       grid-column: 1;
-      left: 5em; }
+      width: 192%; }
       header h1,
       header h2 {
-        margin-left: 3em;
+        margin-left: 12em;
         margin-top: 2.5em; }
       header h2 {
         top: 145px;
-        left: 5px; } }
+        left: 80px; } }
 
 .summary {
   top: 100px;
@@ -813,11 +840,11 @@ header {
     margin-bottom: 1em; }
   @media only screen and (min-width: 768px) {
     .summary {
-      width: 20%;
+      width: 22%;
       top: 185px;
-      text-align: left;
+      text-align: center;
       grid-column: 1;
-      margin-left: 2.5em; } }
+      margin-left: 6.3em; } }
 
 .preamble p,
 .preamble h3,
@@ -845,7 +872,7 @@ header {
   to {
     transform: rotate(359deg); } }
 .preamble {
-  margin-top: -5em; }
+  margin-top: 3em; }
   @media only screen and (min-width: 768px) {
     .preamble {
       margin-top: 12em;
